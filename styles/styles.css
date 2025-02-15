@@ -8,11 +8,16 @@
 }
 body {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
 }
+
 .container {
+  margin-top: 75px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   width: 500px;
   height: 500px;
   background-color: blue;
@@ -22,4 +27,5 @@ body {
   height: 30px;
   width: 30px;
   background-color: rebeccapurple;
+  border: 1px solid black;
 }
